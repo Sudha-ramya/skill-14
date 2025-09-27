@@ -6,7 +6,7 @@
     RUN apt-get update && apt-get install -y git
     
     # Clone your frontend repo
-    RUN git clone https://github.com/srithars/s207-ecomm-frontend-docker.git .
+    RUN git clone https://github.com/Sudha-ramya/skill-14.git .
     
     RUN npm install
     RUN npm run build
